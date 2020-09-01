@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-mei-2020, 12:14:38
+    Author     : visse
+*/
+
+/* 
+ * Styling voor de algemene applicatie 
+ */
+.root{
+    -fx-font-size: 13pt;
+    -fx-font-family: "Verdana";
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-background-color: rgb(238, 238, 238);
+}
+
+/* Styling voor de titel van de pagina */
+.page-title{
+    -fx-font-size: 22pt;
+    -fx-font-weight: 700;
+    -fx-text-alignment: center;
+}
+
+/* Styling voor de tussenkoppen van de pagina */
+.page-section{
+    -fx-font-size: 14pt;
+    -fx-font-weight: 700;
+}
+
+/* Styling voor de labels */
+.label{
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-font-size: 13pt;
+    -fx-font-weight: 600;
+}
+
+/* Styling voor de standaard knoppen */
+.btn{
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-size: 13pt;
+    -fx-background-color: rgb(200, 2, 27);
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-color: rgb(200 , 2, 27);
+    -fx-border-width: 2 2 2 2;
+}
+
+/* Achtergrond wit maken en tekst zwart bij de secundaire en standaard knoppen */
+.btn:hover{
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-background-color: rgb(255, 255, 255);
+}
+
